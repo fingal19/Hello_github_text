@@ -10,7 +10,13 @@
     tools:context="com.example.fx50j.hello_github_text.MainActivity">
 
     <TextView
+        android:id="@+id/tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello github" />
+    <Button
+        android:layout_below="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
 </RelativeLayout>
